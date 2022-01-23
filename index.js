@@ -28,7 +28,7 @@ for (let i = 0; i < fs.readdirSync(__dirname + "/modules").length; i++) {
 ///////
 
 client.on("ready", () => {
- client.user.setActivity(`!help`, { type: "LISTENING" });
+ client.user.setActivity(`1-help`, { type: "LISTENING" });
  
  });
 
@@ -65,7 +65,7 @@ client.on("ready", () => {
     language: "english",
     slash: {
         slash: 'both',
-        prefix: '!'
+        prefix: '1-'
     },
     defaultCooldown: "3s"
   });
@@ -95,4 +95,4 @@ client.on("ready", () => {
 client.on("guildCreate", updateGuildQueue);
 client.on("guildDelete", updateGuildQueue);
 
-client.login("");
+client.login("OTM0NzM5MDkzNTUwNjczOTMx.Ye0dng.owA1CKG4wPmm1pcwANBlf3TjT6g");
